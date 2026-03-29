@@ -1,0 +1,11 @@
+--- LAMBDA ZIP ---
+{"statusCode": 200, "headers": {"Content-Type": "application/json", "X-Server-Time-Ms": "86.998", "X-Instance-Id": "2026/03/28/[$LATEST]337d43f33d1c4f60b5a79997965863d2", "X-Cold-Start": "true"}, "body": "{\"results\": [{\"index\": 35859, \"distance\": 12.001459121704102}, {\"index\": 24682, \"distance\": 12.059946060180664}, {\"index\": 35397, \"distance\": 12.487079620361328}, {\"index\": 20160, \"distance\": 12.489519119262695}, {\"index\": 30454, \"distance\": 12.499402046203613}], \"query_time_ms\": 86.998, \"instance_id\": \"2026/03/28/[$LATEST]337d43f33d1c4f60b5a79997965863d2\", \"cold_start\": true}"}
+
+--- LAMBDA CONTAINER ---
+{"statusCode": 200, "headers": {"Content-Type": "application/json", "X-Server-Time-Ms": "87.935", "X-Instance-Id": "2026/03/28/[$LATEST]8fd0cb837d874b709905911e604460b1", "X-Cold-Start": "true"}, "body": "{\"results\": [{\"index\": 35859, \"distance\": 12.001459121704102}, {\"index\": 24682, \"distance\": 12.059946060180664}, {\"index\": 35397, \"distance\": 12.487079620361328}, {\"index\": 20160, \"distance\": 12.489519119262695}, {\"index\": 30454, \"distance\": 12.499402046203613}], \"query_time_ms\": 87.935, \"instance_id\": \"2026/03/28/[$LATEST]8fd0cb837d874b709905911e604460b1\", \"cold_start\": true}"}
+
+--- FARGATE ---
+{"instance_id":"ip-172-31-24-94.ec2.internal","query_time_ms":23.48,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
+
+--- EC2 ---
+{"instance_id":"9ab636a26880","query_time_ms":22.813,"results":[{"distance":12.001459121704102,"index":35859},{"distance":12.059946060180664,"index":24682},{"distance":12.487079620361328,"index":35397},{"distance":12.489519119262695,"index":20160},{"distance":12.499402046203613,"index":30454}]}
